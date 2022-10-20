@@ -5,3 +5,11 @@
 ### Images ###
 # Portable Network Graphics
 *.png
+
+# JPEG
+*.jpg
+*.jpeg
+*.jpe
+*.jif
+*.jfif
+*.jfi
