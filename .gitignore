@@ -1,0 +1,7 @@
+### macOS ###
+# General
+.DS_Store
+
+### Images ###
+# Portable Network Graphics
+*.png
