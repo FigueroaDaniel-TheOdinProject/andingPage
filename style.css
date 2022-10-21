@@ -26,6 +26,7 @@ nav span {
   color: #F9FAF8;
   font-size: 24px;
   margin-right: auto;
+  font-weight: 700;
 }
 nav a {
   color: #E5E7EB;
@@ -34,11 +35,12 @@ nav a {
   margin-left: 30px;
 }
 .hero {
-  background-color: #1F2937;
+  background-color: #1F2937;  
+  height: 40vh;
 }
 .hero-container {
   display: flex;
-  
+  padding: 80px 0;
 }
 .hero-container div h1 {
   font-size: 48px;
@@ -55,18 +57,37 @@ nav a {
   padding: 5px 20px;
   border-radius: 5px;
   border-style: none;
+  margin-top: 8px;
 }
 .hero-container {
   width: 70%;
   margin: 0 auto;
 }
+.hero-container div {
+  flex: 1;
+}
+.image div {
+  color: #E5E7EB;
+  text-align: center;
+  background-color: rgb(100, 100, 100);
+  height: 100%;
+  padding: 20%;
+}
 .cards-container {
   display: flex;
+  margin-bottom: 50px;
 }
 .cards-container div img {
-  width: 100px;
-  height: 100px;
+  width: 170px;
+  height: 170px;
   border: 1px solid blue;
+  border-radius: 5px;
+}
+.cards-container .card p {
+  color: #1F2937;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 100px;
 }
 .quote {
   background-color: #E5E7EB;
@@ -79,17 +100,37 @@ nav a {
 }
 .quote p {
   font-size: 36px;
-  font-style: light italic;
+  font-style: italic;
   color: #1F2937;
+  padding: 100px 50px;
+  font-weight: 100;
+}
+.quote strong span {
+  font-style: normal;
+  font-size: 20px;
+  margin-left: 700px;
 }
 .action-box {
   background-color: #3882F6;
   display: flex;
-  padding: 20px 50px;
+  padding: 40px 80px;
   justify-content: space-between;
   color: #E5E7EB;
-  margin: 20px auto;
+  margin: 100px auto;
   width: 70%;
+  font-weight: bold;
+  border-radius: 8px;
+}
+.action-box button {
+  color: #E5E7EB;
+  background-color: #3882F6;
+  border: 1px white solid;
+  border-radius: 4px;
+  padding: 0 30px;
+}
+.small-text {
+  font-size: 14px;
+  font-weight: 300;
 }
 footer {
   background-color: #1F2937;
@@ -103,4 +144,15 @@ footer {
 .second div {
   width: 70%;
   margin: 0 auto;
+}
+.second {
+  height: 40vh;
+}
+.second div h2 {
+  text-align: center;
+  padding: 40px;
+}
+.card {
+  display: flex;
+  flex-direction: column;
 }
