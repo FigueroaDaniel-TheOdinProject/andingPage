@@ -19,6 +19,8 @@ header {
 nav {
   display: flex;
   align-items: center;
+  width: 70%;
+  margin: 0 auto;
 }
 nav span {
   color: #F9FAF8;
@@ -32,24 +34,31 @@ nav a {
   margin-left: 30px;
 }
 .hero {
-  display: flex;
   background-color: #1F2937;
 }
-.hero div h1 {
+.hero-container {
+  display: flex;
+  
+}
+.hero-container div h1 {
   font-size: 48px;
   font-weight: 900;
   color: #F9FAF8;
 }
-.hero div p {
+.hero-container div p {
   font-size: 18px;
   color: #E5E7EB;
 }
-.hero div button {
+.hero-container div button {
   background-color: #3882F6;
   color: #E5E7EB;
   padding: 5px 20px;
   border-radius: 5px;
   border-style: none;
+}
+.hero-container {
+  width: 70%;
+  margin: 0 auto;
 }
 .cards-container {
   display: flex;
@@ -62,6 +71,11 @@ nav a {
 .quote {
   background-color: #E5E7EB;
   flex: 1;
+
+}
+.quote div {
+  width: 70%;
+  margin: 0 auto;
 }
 .quote p {
   font-size: 36px;
@@ -74,6 +88,8 @@ nav a {
   padding: 20px 50px;
   justify-content: space-between;
   color: #E5E7EB;
+  margin: 20px auto;
+  width: 70%;
 }
 footer {
   background-color: #1F2937;
@@ -81,6 +97,10 @@ footer {
   text-align: center;
   padding: 20px;
 }
-.hero, .second {
+.hero-container, .second {
   flex: 1;
+}
+.second div {
+  width: 70%;
+  margin: 0 auto;
 }
